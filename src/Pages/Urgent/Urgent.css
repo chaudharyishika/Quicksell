@@ -1,0 +1,63 @@
+
+.urgent-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  .urgent-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .urgent-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .urgent-title img {
+    width: 24px; 
+    margin-right: 10px;  
+  }
+  
+  .urgent-title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .urgent-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .urgent-actions .urgent-icon {
+    width: 24px;  
+    margin-left: 15px; 
+    cursor: pointer;  
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+  li h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  li p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  p {
+    font-size: 16px;
+    color: gray;
+  }
+  

@@ -1,0 +1,29 @@
+
+.ticket-container {
+  display: flex;
+  justify-content: space-between;  
+  flex-wrap: nowrap;  
+  overflow-x: auto;  
+  padding: 20px;  
+}
+
+
+.ticket-container > div {
+  flex: 1 1 15%;  
+  min-width: 250px; 
+  box-sizing: border-box;
+  background-color: azure; 
+  padding: 50px;  
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  }
+
+
+.no-priority{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.no-priority p{
+  padding: 10px;
+}
+
+  

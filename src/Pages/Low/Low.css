@@ -1,0 +1,78 @@
+
+.low-priority {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    width: 300px; 
+    box-sizing: border-box;
+  }
+  
+  .low-priority .title {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px;
+  }
+  
+  .low-priority .title .logo-text {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }
+  
+  .low-priority .title img {
+    width: 20px; 
+    height: 20px;
+  }
+  
+  .low-priority .title .actions {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .low-priority h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  /* Render the tickets list */
+  .low-priority .ticket-list {
+    margin-top: 10px;
+  }
+  
+  .low-priority .ticket-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .low-priority .ticket-list li {
+    margin-bottom: 10px;
+  }
+  
+  .low-priority .ticket-list h3 {
+    font-size: 18px;
+  }
+  
+  .low-priority .ticket-list p {
+    font-size: 14px;
+  }
+  
+  .low-priority img {
+    cursor: pointer;
+    width: 20px;  
+    height: 20px;
+  }
+  
+  .low-priority img:hover {
+    opacity: 0.7;
+  }
+  .tickets{
+    background-color: aquamarine;
+    margin-top: 30px;
+    padding: 10px;
+  }

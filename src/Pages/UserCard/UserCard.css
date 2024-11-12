@@ -1,0 +1,67 @@
+
+.user-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-title {
+  display: flex;
+   
+  align-items: flex-start;  
+  gap: 10px;  
+}
+.user-title h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;  
+}
+
+.user-title p {
+  font-size: 25px;
+  
+  margin:0;
+}
+
+
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.user-actions .user-icon {
+  width: 24px; 
+  margin-left: 15px; 
+  cursor: pointer; }
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+li h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+li p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+p {
+  font-size: 16px;
+  color: gray;
+}
+.tickets{
+  background-color: aquamarine;
+  margin-top: 30px;
+  padding: 10px;
+}

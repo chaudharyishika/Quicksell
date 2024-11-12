@@ -1,0 +1,78 @@
+
+.medium-priority {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    width: 300px; 
+    box-sizing: border-box;
+  }
+  
+  
+  .medium-priority .title {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px;
+  }
+  
+  .medium-priority .title .logo-text {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }
+  
+  .medium-priority .title img {
+    width: 20px; 
+    height: 20px;
+  }
+  
+  .medium-priority .title .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .medium-priority h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .medium-priority .ticket-list {
+    margin-top: 10px;
+  }
+  
+  .medium-priority .ticket-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .medium-priority .ticket-list li {
+    margin-bottom: 10px;
+  }
+  
+  .medium-priority .ticket-list h3 {
+    font-size: 18px;
+  }
+  
+  .medium-priority .ticket-list p {
+    font-size: 14px;
+  }
+  
+  .medium-priority img {
+    cursor: pointer;
+    width: 20px; 
+    height: 20px;
+  }
+  
+  .medium-priority img:hover {
+    opacity: 0.7;
+  }
+  .tickets{
+    background-color: aquamarine;
+    margin-top: 30px;
+    padding: 10px;
+  }
